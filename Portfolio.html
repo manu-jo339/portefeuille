@@ -1,0 +1,173 @@
+<!DOCTYPE html><html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio de Zoey Miller - Développeuse web et experte en réseau">
+  <title>Portfolio de Zoey Miller</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      background-color: #121212;
+      color: #f1f1f1;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .navbar {
+      background-color: #1f1f1f;
+    }
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+      background: linear-gradient(145deg, #1e1e1e, #292929);
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      color: #bbbbbb;
+    }
+    .section-title {
+      text-align: center;
+      margin: 50px 0 30px;
+    }
+    .card {
+      background-color: #1e1e1e;
+      border: none;
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: scale(1.03);
+    }
+    .card img {
+      max-height: 200px;
+      object-fit: cover;
+    }
+    footer {
+      background-color: #1f1f1f;
+      text-align: center;
+      padding: 30px;
+      margin-top: 50px;
+      color: #ccc;
+    }
+    .search-bar {
+      margin: 20px auto;
+      max-width: 400px;
+    }
+    .btn-purple {
+      background-color: #6a0dad;
+      border: none;
+      color: white;
+    }
+    .btn-purple:hover {
+      background-color: #5800a0;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Zoey Miller</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">À propos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Compétences</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projets</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>  <header class="hero" id="about">
+    <img src="Noah.jpg" alt="Zoey Miller" class="rounded-circle mb-4" width="150" height="150">
+    <h1>Zoey Miller</h1>
+    <p> Développeuse Web & Spécialiste Réseau
+    </p>
+    <section id="about">
+      <h2 class="section-title"> A propos</h2>
+      <p class="lead fw-bold"> 
+        Développeuse Web  passionée et spécialiste en Cybersécurité, Zoey transforme des idées en solutions numériques performantes. Curieuse, créative et rigoureuse, elle conçoit des interfaces élégantes, sécurisées et fonctionnelles. Avec chaque ligne de code, elle s'efforcede bâtir un web plus fluide, plus inclusif et surtout plus humain.
+     <strong>Je ne crée pas seulement des lignes de code, je façonne des expériences numériques mémorables.Bienvenue dans l'univers de Zoey Miller, développeuse web & spécialiste réseau, où chaque projet raconte une histoire.</strong> 
+      </p>
+    </section>
+  </header>  <div class="container">
+    <div class="search-bar">
+      <input type="text" class="form-control" placeholder="Rechercher un projet ou une compétence...">
+    </div><section id="skills">
+  <h2 class="section-title">Compétences</h2>
+  <div class="row g-4">
+    <div class="col-md-4"><div class="card p-3">HTML, CSS, JavaScript</div></div>
+    <div class="col-md-4"><div class="card p-3">Bootstrap, Tailwind</div></div>
+    <div class="col-md-4"><div class="card p-3">Python, Java, PHP</div></div>
+    <div class="col-md-4"><div class="card p-3">MySQL, MongoDB</div></div>
+    <div class="col-md-4"><div class="card p-3">Administration réseau, Sécurité</div></div>
+    <div class="col-md-4"><div class="card p-3">Responsive Design & SEO</div></div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2 class="section-title">Mes Projets Réalisés</h2>
+  <div class="row g-4">
+    <div class="col-md-6">
+      <div class="card">
+        <img src="WhatsApp Image 2025-05-09 à 03.58.20_b488af78.jpg" class="card-img-top" alt="Projet 1">
+        <div class="card-body">
+          <h5 class="card-title">Portfolio personnel</h5>
+          <p class="card-text">Création d’un site portfolio moderne et responsive.</p>
+          <video controls class="w-100">
+            <source src="portfolio.mp4 type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card">
+        <img src="securite.jpg" class="card-img-top" alt="Projet 2">
+        <div class="card-body">
+          <h5 class="card-title">Système de Gestion Réseau</h5>
+          <p class="card-text">Développement d’un dashboard pour superviser les connexions réseau.</p>
+          <video controls class="w-100">
+            <source src="WhatsApp Vidéo 2025-05-08 à 20.45.36_f358c291.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card">
+        <img src="WhatsApp Image 2025-05-09 à 03.56.53_a96bc963.jpg" class="card-img-top" alt="Projet 1">
+        <div class="card-body">
+          <h5 class="card-title">Gestion d'une boulangerie</h5>
+          <p class="card-text">Création d’une application plus performante.</p>
+          <video controls class="w-100">
+            <source src="WhatsApp Vidéo 2025-05-09 à 03.57.10_9a288fc2.mp4 type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2 class="section-title">Contact</h2>
+  <form>
+    <div class="mb-3">
+      <input type="text" class="form-control" placeholder="Nom">
+    </div>
+    <div class="mb-3">
+      <input type="email" class="form-control" placeholder="Email">
+    </div>
+    <div class="mb-3">
+      <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+    </div>
+    <button class="btn btn-purple" type="submit">Envoyer</button>
+  </form>
+</section>
+
+  </div>  <footer>
+    <p>&copy; 2025 Zoey Miller - Tous droits réservés</p>
+  </footer>  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script></body>
+</html>
